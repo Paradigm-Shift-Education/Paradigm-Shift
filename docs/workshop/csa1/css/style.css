@@ -1,0 +1,56 @@
+.section {
+    width: 100%;
+    padding: 8% 8%;
+    -webkit-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.section-black {
+    background: #20222B;
+    color: #fff;
+}
+
+.section-black h2 {
+    margin-bottom: 4px;
+}
+
+.section-white {
+    background: #f5f5f5;
+}
+
+a:not(.btn) {
+    text-decoration: underline !important;
+}
+
+.text-white {
+    color: #f5f5f5;
+}
+
+.text-white:hover {
+    color: #4cf8ff !important;
+}
+
+.text-black {
+    color: #20222B;
+}
+
+.text-black:hover {
+    color: #2605ff !important;
+}
+
+.logo {
+    width: 250px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+b {
+    font-weight: bold;
+}
+
+.bold-btn-group .btn, #rightSide .btn {
+    font-weight: 600;
+}

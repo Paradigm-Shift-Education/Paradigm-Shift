@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="description" content ="2048 in Python: build the popular mobile smartphone game 2048 using Python and a variety of key Computer Science concepts.">
+        <meta name="keywords" content ="Paradigm Shift, 2048, python, nifty">
+        <meta name="author" content ="Anish Prabhu, Jesse Luo, Kunal Mishra, Gan Tu">
+        <meta name="robots" content="follow, index">
+
+        <!-- Credit of Certain Sources -->
+        <meta name="credits"  content="This html uses css and javascript files from University of California, Berkeley CS61A class website for styling purposes. Credits to all original authors of such files.">
+
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="viewport" content="width=device-width">
+
+         <!-- Load Stylesheets -->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+
+        <title>2048 in Python! | Paradigm Shift</title>
+
+    </head>
+
+<body id="index" class="home">
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-section">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                <a class="navbar-brand" href="#">2048 in Python! | Paradigm Shift</a>
+            </div>  
+            
+            <div class="collapse navbar-collapse" id="navbar-collapse-section"> 
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a target="_blank" href="http://www.paradigmshiftcs.org">About Us</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="content" class="container">
+      
+        <div class='row'>
+            <div class='col-md-9'>
+
+                <div class='page-header'>
+                    <h1>2048 in Python!</h1>
+                </div>
+
+                <img src="http://www.apparrayworld.com/images/puzzles/2048-3.png" alt="2048 Game Screenshots" height="200">
+
+                <h2 id="overview">Overview</h2>
+                    <p>In this assignment, students have the opportunity to create a version of 2048, the popular mobile app, in python. Since this project is targeted towards CS0 and CS1 students, this project includes skeleton code, helper functions, "Targeted Help," and even Video Introductions to guide the students along the way. </p>
+
+                    <h3 id="example-methods">Example Methods</h3>
+                    <p>Here are a few examples of the type of methods the students would be responsible for understanding or implementing:</p>
+                    <ul>
+                        <li><tt>make_board:</tt> creates a new, empty square board of N x N dimension</li>
+                        <li><tt>get_piece:</tt>  gets the piece from the given board at the given (x,y) coordinates or returns None if the position is invalid </li>
+                        <li><tt>place_piece:</tt> places the given piece on the given board at the given (x,y) coordinates and returns True or returns False if the position is invalid</li>
+                        <li><tt>swipe_right:</tt> simulates a right swipe on the argument board</li>
+                        <li><tt>have_lost:</tt> responsible for determining if the game has been lost yet (no moves remain)</li>
+                    </ul>
+
+                    <h3 id="abstraction-reference-guide">Abstraction Reference Guide</h3>
+                    <p>Since this may be one of the first times students are exposed to a larger project, one of the main objectives of this project is to emphasize functional abstraction to manage complexity. This project includes an “Abstraction Reference Guide” which contains all provided and student-implemented functions. This reinforces the idea of creating abstraction barriers and allows the students to focus on the problem at hand, rather than be overwhelmed by the entire project.</p>
+
+                    <h3 id="example-project">Example Project</h3>
+                    <p>An example of what the completed project might look like can be found at this <a href="https://gabrielecirulli.github.io/2048/" target="_blank">link</a>.</p>
+                 
+                <h2 id="materials">Assignment Materials</h2>
+                    <h3 id="student-resources">Student Resources</h3>
+                    <ul>
+                        <li><p>Video Introductions: <a target="_blank" href="https://www.youtube.com/watch?v=1lV4SavT0NE&feature=youtu.be&list=PLqTb1WbQHAN7ipyBe-cF4PJrUitlAMbku" target="_blank">link</a></p></li>
+                        <li><p>Specification for this assignment (with videos): <a target="_blank" href="https://goo.gl/34kNbl" target="_blank">link</a></p></li>
+                        <li>Starter Files: <a target="_blank" href="https://github.com/kmishra9/2048-Starter" target="_blank">GitHub Repo</a></p></li>
+                        <li><p>Staff Solution: <a target="_blank" href="https://github.com/kmishra9/2048-Staff-Solution" target="_blank">GitHub Repo</a></p></li>
+                    </ul>
+
+                    <h3 id="worksheets">Worksheets</h3>
+                    <ul>
+                        <li><p>Introductory Worksheets: <a href="https://goo.gl/zA0Vck" target="_blank">link</a></p></li>
+                        <li><p>Worksheet Solutions: <a href="https://goo.gl/WQcDty" target="_blank">link</a></p></li>
+                    </ul>
+                    
+
+                <h2 id="meta-info">Meta Information</h2>
+                <table class="table">
+                    <tbody>
+                        <tr id="summary">
+                            <td>Summary</td>
+                            <td><p>2048 in Python! -- Build the popular smartphone game "2048" using Python and a variety of key Computer Science concepts. </p><p>Topics: various levels of exposure to large projects and abstraction, understanding/modeling/maintaining existing code, variables, loops, conditionals, functional programming, multidimensional arrays/lists, randomness and distributions, and terminal GUIs.</p></td>
+                        </tr>
+                        <tr id="audience">
+                            <td>Audience</td>
+                            <td>CS0, CS1</td>
+                        </tr>
+                        <tr id="difficulty">
+                            <td>Difficulty</td>
+                            <td><p>This is a relatively straightforward assignment, taking 4-10 hours for a CS0 student and 2-5 hours for a CS1 student.</p><p>An optional challenge or extra credit problem, however, is designed to take a student who finishes early or is advanced, relative to their peers, and challenge them heavily, with appropriate guidance.</p></td>
+                        </tr>
+                        <tr id="strengths">
+                            <td>Strengths</td>
+                            <td><p>Specifically designed with complete beginners in mind, this project includes "Targeted Help" sections for struggling students who have a tendency to get stuck and video Introductions for students with shorter attention spans.</p><p>When tested among HS students first learning Computer Science, the project was reviewed very well for its teaching components and "cool factor" -- the final product at the end of the project is a full baked smartphone game on their computers.</p> <p>One final strength is the customizability of the project to fit a particular skill level -- the specification and starter code can be modified quite easily to artificially increase the difficulty of the project by providing less "handholding".</p> <p>A comprehensive autograder and printable Python prep worksheets (with solutions) for concepts that show up in the project are included as well. </td>
+                        </tr>
+                        <tr id="weaknesses">
+                            <td>Weaknesses</td>
+                            <td><p>The project is relatively linear, though the level of synthesis required of students can be adapted. Specification is rather long, though video introductions are available. Installation of non-standard Python3 dependencies is highly recommended, though project will run without them.</p> <p>Students can be confused by distributions without help and/or prior preparation. Minimal discussion of OOP. A lot of the things students are responsible for implementing is highly abstracted away, though for many CS0 students that's not necessarily a weakness.</p></td>
+                        </tr>
+                        <tr id="dependencies">
+                            <td>Dependencies</td>
+                            <td><p>Assumed knowledge of Python syntax and introductory concepts (print statements, comments, variables, data types, operators, conditionals, loops, functions, and optionally objects), but without mastery or even comfortability with them. Tested with students that had ~20 hours of lecture/lab/homework who started as complete beginners coming into this project Non-standard Python3 library modules: getch, termcolor (instructions for installation via pip included within Specification as part of a "Workspace Setup" doc) </p></td>
+                        </tr>
+                        <tr id="variants">
+                            <td>Variants</td>
+                            <td><p>Can flex difficulty for CS1 students by removing Targeted Help and/or starter code from spec. Advanced students can add on to this version of 2048 by allowing swaps at the press of a button -- extremely useful for getting out of tight situations!</p></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h2 id="contact">Contact Us</h2>
+                <p>If you have any questions, feel free to email us at <a href="mailto:P.ShiftEducation@gmail.com">P.ShiftEducation@gmail.com</a>.</p>
+                <p>To learn more about what we've been working on, check us out <a target="_blank" href="http://www.paradigmshiftcs.org">here</a>.</p>
+             
+            </div>
+
+            <!-- Side Scrolling Bar -->
+
+            <div class='col-md-3'>
+                <nav class='hidden-print hidden-sm hidden-xs sidebar'>
+                    <ul>
+                        <li><a href="#overview">Overview</a></li>
+                        <ul>
+                            <li><a href="#example-methods">Example Methods</a></li>
+                            <li><a href="#abstraction-reference-guide">Abstraction Reference Guide</a></li>
+                            <li><a href="#example-project">Example Project</a></li>
+                        </ul>
+                        <li><a href="#materials">Assignment Materials</a></li>
+                        <ul>
+                            <li><a href="#student-resources">Student Resources</a></li>
+                            <li><a href="#worksheets">Worksheets</a></li>
+                        </ul>
+                        <li><a href="#meta-info">Meta Information</a></li>
+                        <ul>
+                           <li><a href="#summary">Summary</a></li>
+                           <li><a href="#audience">Audience</a></li>
+                           <li><a href="#difficulty">Difficulty</a></li>
+                           <li><a href="#strengths">Strengths</a></li>
+                           <li><a href="#weaknesses">Weaknesses</a></li>
+                           <li><a href="#dependencies">Dependencies</a></li>
+                           <li><a href="#variants">Variants</a></li>
+                        </ul>
+                        <li><a href="#contact">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</body>
+  
+<!-- Load Scripts -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/highlight.pack.js"></script>
+<script>
+    hljs.initHighlightingOnLoad();
+  $('.sidebar ul').addClass('nav nav-stacked');
+  $('body').scrollspy({
+    target: '.sidebar',
+    offset: 40
+  });
+</script>
+
+</html>

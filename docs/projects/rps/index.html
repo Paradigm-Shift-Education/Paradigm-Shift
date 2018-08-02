@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="description" content ="RPS.ai: build the most timeless classical playground game, Rock Paper Scissors, with AI extension using Python and a variety of key Computer Science concepts.">
+        <meta name="keywords" content ="Paradigm Shift, RPS.ai, python, nifty">
+        <meta name="author" content ="Kunal Mishra, Gan Tu, Sathvik Nair, Jesse Luo, Jamie Delbick, Clement Ng">
+        <meta name="robots" content="follow, index">
+
+        <!-- Credit of Certain Sources -->
+        <meta name="credits"  content="This html uses css and javascript files from University of California, Berkeley CS61A class website for styling purposes. Credits to all original authors of such files.">
+
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="viewport" content="width=device-width">
+
+         <!-- Load Stylesheets -->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+
+        <title>RPS.ai | Paradigm Shift</title>
+
+    </head>
+
+<body id="index" class="home">
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-section">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                <a class="navbar-brand" href="#">RPS.ai | Paradigm Shift</a>
+            </div>  
+            
+            <div class="collapse navbar-collapse" id="navbar-collapse-section"> 
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a target="_blank" href="http://www.paradigmshiftcs.org">About Us</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="content" class="container">
+      
+        <div class='row'>
+            <div class='col-md-9'>
+
+                <div class='page-header'>
+                    <h1>RPS.ai</h1>
+                </div>
+
+                <img src="https://www.rd.com/wp-content/uploads/sites/2/2016/04/rock-paper-scissor.jpg" alt="Rock Paper Scissors demo" height="200">
+
+                <h2 id="overview">Overview</h2>
+                    <p>In this assignment, beginning students have the opportunity to build 2 incredibly simple, fun Rock Paper Scissors projects. The first is a simple RPS simulator as one of the first coding projects they ever do. This project was built for a 40 hour workshop that covers 3 projects, with our previous Nifty project, 2048, bridging the gap. Then, the third project in the sequence, which is a natural extension of RPS, provides a high level introduction to concepts in Artificial Intelligence for beginning students in a fun, easy to grasp way.</p>
+
+                    <p>Since these two projects are targeted towards CS0 and CS1 students and heavily interrelated, they ship together in the same repository and utilize the same autograder framework, though they have separate specs. The project includes skeleton code and plenty of hints to make sure students can get ‘unstuck’ and the comprehensive autograder ensures that their implementations are completely correct before moving on.</p>
+
+                    <h3 id="example-methods">Example Methods</h3>
+                    <p>Here are a few examples of the type of methods the students would be responsible for understanding or implementing:</p>
+                    <ul>
+                        <li> Project 0 — RPS
+                            <ul>
+                                <li><tt>play_again: </tt>returns "True" if user wants to play again and "False" if not</li>
+                                <li><tt>determine_winner: </tt>determines the winner between the user and computer based on each of the players’ moves</li>
+                            </ul>
+                        </li>
+                        <li> Project 2 — AI Extensions
+                            <ul>
+                                <li><tt>biased_strategy: </tt>has a single weighted move, equal split for other two</li>
+                                <li><tt>deterministic_strategy: </tt>repeats a pattern of moves</li>
+                                <li><tt>reflexive_strategy: </tt>Keeps track of all past opponent moves and adjusts weights/probability of playing each move</li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <h3 id="abstraction-reference-guide">Abstraction Reference Guide</h3>
+                    <p>All 3 Nifty projects (RPS, 2048, and the AI Extensions) rely on a central principle of abstraction and this concept is reinforced throughout the set of projects. All 3 projects also include an “Abstraction Reference Guide” which helps students understand all provided and student-implemented functions. These also continue to strengthen the idea of creating abstraction barriers and allows the students to focus on the problem at hand, rather than be overwhelmed by the entire project.</p>
+
+                    <h3 id="highlights">Highlights</h3>
+                    <p>Overall, the projects are applicable, interesting, and directly relevant to students while also building systems of increasing complexity that challenges your 10x student programmers while providing enough support to the rest of the class to help them push through problems. Teachers will find that they also don’t need to micromanage students’ code as they get instant feedback from comprehensive tests and grading is made easy with the provided autograder.</p>
+                 
+                <h2 id="materials">Assignment Materials</h2>
+                    <h3 id="project-resources">Project Resources</h3>
+                    <ul>
+                        <li><p><a href="https://docs.google.com/document/d/1ekfRhIY-HAHiEtmNjnvKByqkINsWQjCooN2BhqqzB4Y/edit?usp=sharing" target="_blank">Specification for RPS (Project 0)</a></p></li>
+                        <li><p><a href="https://docs.google.com/document/d/1WbbLTOXdmpkYvfEGZwMPgs-S9WeNIe4g5V3km8c_Myw/edit?usp=sharing" target="_blank">Specification for AI Extensions (Project 2)</a></p></li>
+                        <li><p><a href="https://github.com/kmishra9/RPS.ai" target="_blank">RPS.ai Starter Files</a></p></li>
+                        <li><p><a href="https://github.com/kmishra9/RPS.ai-Staff-Solutions.git" target="_blank">RPS.ai Staff Solution</a></p></li>
+                    </ul>
+
+                    <h3 id="extra-resources">Extra Resources</h3>
+                    <ul>
+                        <li><p><a href="http://nifty.stanford.edu/2017/mishra-2048/" target="_blank">2048 Nifty Page (Project 1)</a></p></li>
+                        <li><p><a href="https://goo.gl/zA0Vck" target="_blank">Introductory Python Worksheets</a></p></li>
+                        <li><p><a href="https://goo.gl/WQcDty" target="_blank">Worksheet Solutions</a></p></li>
+                    </ul>
+                    
+
+                <h2 id="meta-info">Meta Information</h2>
+                <table class="table">
+                    <tbody>
+                        <tr id="summary">
+                            <td>Summary</td>
+                            <td><p>RPS.ai — Build one of the most timeless classical playground games using Python and a variety of key Computer Science concepts.</p><p>Topics: Various levels of exposure to large projects and abstraction, understanding/modeling/maintaining existing code, variables, loops, conditionals, functional programming, multidimensional arrays/lists, randomness and distributions, and terminal GUIs.</p></td>
+                        </tr>
+                        <tr id="audience">
+                            <td>Audience</td>
+                            <td>CS0, CS1</td>
+                        </tr>
+                        <tr id="difficulty">
+                            <td>Difficulty</td>
+                            <td><p>RPS is a clearly CS0 assignment, meant to be a student’s first project ever in Computer Science. AI Extensions is a more difficult and conceptually challenging project that is closer to CS1 level. We recommend taking students through the trio of projects first described — RPS, 2048, and AI Extensions — as each project builds up each student’s engineering maturity and comfort with programming.</p><p>RPS is calibrated to take between 1-5 hours depending on student ability.</p><p>AI Extensions is calibrated to take 5-10 hours depending on student ability.</p></td>
+                        </tr>
+                        <tr id="strengths">
+                            <td>Strengths</td>
+                            <td><p>Specifically designed with complete beginners in mind, this project starts with plenty of hints and handholding for struggling students who have a tendency to get stuck.</p><p>When tested among HS students first learning Computer Science, the projects were reviewed very well for their teaching components and "cool factor" — the final products at the end of each project are incredibly relatable to students and they are excited because of how much they’re able to do within such a limited time frame in learning how to program.</p><p>One final strength is the customizability of the project to fit a particular skill level — the spec and starter code can be modified quite easily to artificially increase the difficulty of the project by providing less "handholding".</p><p>A comprehensive autograder and printable Python prep worksheets (with solutions) for concepts that show up in the project are included as well.</p></td>
+                        </tr>
+                        <tr id="weaknesses">
+                            <td>Weaknesses</td>
+                            <td><p>The project is relatively linear, though the level of synthesis required of students can be adapted. Students can be confused by distributions without help and/or prior preparation. There’s minimal discussion of OOP, with a lot of the things students are responsible for implementing, highly abstracted away.</p></td>
+                        </tr>
+                        <tr id="dependencies">
+                            <td>Dependencies</td>
+                            <td><p>RPS assumes knowledge of Python syntax and introductory concepts (print statements, comments, variables, data types, operators, conditionals, loops, functions, and optionally objects), but without mastery or even comfortability with them. It was tested with students that had ~10 hours of lecture/lab/homework who started as complete beginners coming into this project.</p><p>AI extensions builds on the knowledge and comfort students acquire after working through many more problems and the two aforementioned projects. We recommend they have closer to 30-40 hours of lecture/lab/homework coming into the project so that they’re more comfortable writing code from scratch and building agents. At that point, they likely also would have had adequate experience with debugging problems and that is a key skill the AI Extensions in particular help develop in students.</p></td>
+                        </tr>
+                        <tr id="variants">
+                            <td>Variants</td>
+                            <td><p> Can flex difficulty for CS1 students by turning Project 0 into a smaller and relatively simple engineering project and removing the starter code entirely.</p> <p>AI Extensions contains 3 more optional challenges which challenge 3 different sets of programming skill: 
+                                <ol>
+                                    <li>building a challenging, complex strategy with less handholding from the spec</li>
+                                    <li>engineering an all-knowing simulator that “cheats” by looking at the User’s choice and beating it every time</li>
+                                    <li>Learning about and utilizing memoization to make the predictive strategies much faster and more efficient</li>
+                                </ol>
+                            Each of these challenges taken alone would be a challenge for most CS1 students and the combination of the 3 should keep anyone who completes the projects early very occupied.</p></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h2 id="contact">Contact Us</h2>
+                <p>If you have any questions, feel free to email us at <a href="mailto:P.ShiftEducation@gmail.com">P.ShiftEducation@gmail.com</a>.</p>
+                <p>To learn more about what we've been working on, check us out <a target="_blank" href="http://www.paradigmshiftcs.org">here</a>.</p>
+             
+            </div>
+
+            <!-- Side Scrolling Bar -->
+
+            <div class='col-md-3'>
+                <nav class='hidden-print hidden-sm hidden-xs sidebar'>
+                    <ul>
+                        <li><a href="#overview">Overview</a></li>
+                        <ul>
+                            <li><a href="#example-methods">Example Methods</a></li>
+                            <li><a href="#abstraction-reference-guide">Abstraction Reference Guide</a></li>
+                            <li><a href="#highlights">Highlights</a></li>
+                        </ul>
+                        <li><a href="#materials">Assignment Materials</a></li>
+                        <ul>
+                            <li><a href="#project-resources">Project Resources</a></li>
+                            <li><a href="#extra-resources">Extra Resources</a></li>
+                        </ul>
+                        <li><a href="#meta-info">Meta Information</a></li>
+                        <ul>
+                           <li><a href="#summary">Summary</a></li>
+                           <li><a href="#audience">Audience</a></li>
+                           <li><a href="#difficulty">Difficulty</a></li>
+                           <li><a href="#strengths">Strengths</a></li>
+                           <li><a href="#weaknesses">Weaknesses</a></li>
+                           <li><a href="#dependencies">Dependencies</a></li>
+                           <li><a href="#variants">Variants</a></li>
+                        </ul>
+                        <li><a href="#contact">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</body>
+  
+<!-- Load Scripts -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/highlight.pack.js"></script>
+<script>
+    hljs.initHighlightingOnLoad();
+  $('.sidebar ul').addClass('nav nav-stacked');
+  $('body').scrollspy({
+    target: '.sidebar',
+    offset: 40
+  });
+</script>
+
+</html>

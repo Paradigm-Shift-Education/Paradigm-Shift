@@ -1,0 +1,68 @@
+.btn-solid-blue {
+  letter-spacing: 1px;
+  display: inline-block;
+  background: #1399F0;
+  color: #fff;
+  -webkit-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
+  border: 1px solid #1399F0;
+  font-weight: 600;
+  font-size: 0.75em;
+  text-align: center;
+  padding: 0.9375em 3.125em; 
+}
+.btn-solid-blue:focus {
+    background: #1399F0; 
+}
+.btn-solid-blue:hover {
+    background: #0389D0; 
+}
+
+.btn-solid-orange {
+  letter-spacing: 1px;
+  display: inline-block;
+  background: #ffa228;
+  color: #fff;
+  -webkit-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
+  border: 1px solid #ffa228;
+  font-weight: 600;
+  font-size: 0.75em;
+  text-align: center;
+  padding: 0.9375em 3.125em; 
+}
+.btn-solid-orange:focus {
+    background: #ffa228; 
+}
+.btn-solid-orange:hover {
+    background: #e58910; 
+}
+
+.btn-solid-pinkred {
+  letter-spacing: 1px;
+  display: inline-block;
+  background: #FF5248;
+  color: #fff;
+  -webkit-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
+  border: 1px solid #FF5248;
+  font-weight: 600;
+  font-size: 0.75em;
+  text-align: center;
+  padding: 0.9375em 3.125em; 
+}
+.btn-solid-pinkred:focus {
+    background: #FF5248; 
+}
+.btn-solid-pinkred:hover {
+    background: #ff2215; 
+}
